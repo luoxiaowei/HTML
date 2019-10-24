@@ -7,6 +7,41 @@
     <title>语义元素</title>
 </head>
 <body>
-    
+    <header>文档的头部</header>
+    <section>
+        <div>文档中的第一节</div>
+        <mark>带有记号的文本。</mark>
+    </section>
+    <article>article内容本身必须是有意义的且必须是独立于文档的其余部分。</article>
+    <aside>aside 的内容应该与附近的内容相关</aside>
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+    <details>描述文档或文档某个部分的细节。</details>
+    <nav><a href="#">导航1</a></nav>
+    <progress>进度</progress>
+    <p>文本<bdi>bdi允许您设置一段文本，使其脱离其父元素的文本方向设置</bdi></p>
+    <command checked="true" label="命令按钮" type="checkbox">命令按钮</command>
+    <table border="1">
+        <tr>
+            <th>January <dialog open>This is an open dialog window</dialog></th>
+            <th>February</th>
+            <th>March</th>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>28</td>
+            <td>31</td>
+        </tr>
+    </table>
+    <br/>
+    <figure>figure 元素的内容应该与主内容相关，同时元素的位置相对于主内容是独立的。如果被删除，则不应对文档流产生影响。</figure>
+    <time datetime="2016-02-14">情人节</time> 
+    <p><wbr>Http<wbr>Request 对象。</p>
 </body>
 </html>
